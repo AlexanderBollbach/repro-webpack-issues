@@ -1,4 +1,5 @@
 import Styled from "styled-components";
+import React from "react";
 
 const FooDiv = Styled.div`
 background-color: blue;

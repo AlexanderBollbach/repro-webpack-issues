@@ -19,7 +19,7 @@ module.exports = {
     ]
   },
   externals: {
-    "styled-components": "styled-components"
+    "styled-components": { commonjs: "styled-components" }
   },
   devtool: "source-maps",
   mode: "development",
