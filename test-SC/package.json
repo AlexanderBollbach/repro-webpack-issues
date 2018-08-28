@@ -1,0 +1,27 @@
+{
+  "name": "test-SC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ab-chart": "file:../ab-chart",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "styled-components": "^3.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0-beta.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
