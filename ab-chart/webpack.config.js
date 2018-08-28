@@ -6,7 +6,7 @@ module.exports = {
     path: __dirname + "/dist",
     filename: "bundle.js",
     library: "ab-chart",
-    libraryTarget: "commonjs-module"
+    libraryTarget: "commonjs"
   },
   entry: "./src/index.js",
   module: {
@@ -18,10 +18,8 @@ module.exports = {
       }
     ]
   },
-  externals: {
-    "styled-components": { commonjs: "styled-components" }
-  },
-  devtool: "source-maps",
+  externals: { commonjs: "styled-components" },
+  // devtool: "source-maps",
   mode: "development",
   devServer: {
     contentBase: path.join(__dirname, "dist")

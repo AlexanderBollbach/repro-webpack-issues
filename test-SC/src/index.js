@@ -1,5 +1,9 @@
-import { Chart } from "ab-chart";
+import React from "react";
+import { render } from "react-dom";
 
-console.log(Chart);
+import Foo from "ab-chart";
 
 console.log("foo");
+console.log(Foo);
+
+render(<div />, document.getElementById("root"));
